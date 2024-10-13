@@ -10,10 +10,4 @@ public class ScooterConst {
     public static String CONFLICT_MSG = "Этот логин уже используется. Попробуйте другой.";
     public static String LOGIN_BAD_REQUEST_MSG = "Недостаточно данных для входа";
     public static String LOGIN_NOT_FOUND_MSG = "Учетная запись не найдена";
-
-    //Order
-    public static  String ORDERS_COURIER_NOT_FOUND_MSG = "Курьер с идентификатором не найден";
-
-
-
 }

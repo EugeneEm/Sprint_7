@@ -25,9 +25,7 @@ public class OrdersGetListTest {
         courierId = 13102024;
         ValidatableResponse ordersResponse = orderClient.orderGetListCourier(courierId);
         String message = orderAssertions.getOrdersCourierFail(ordersResponse);
-        assertEquals("Курьер с идентификатором "+courierId+" не найден", message);
-//        assert message.contains(ScooterConst.ORDERS_COURIER_NOT_FOUND_MSG);
-
+        assertEquals("Курьер с идентификатором " + courierId + " не найден", message);
     }
 
 }
